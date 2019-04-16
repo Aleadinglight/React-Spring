@@ -32,14 +32,14 @@
 ## Build and run
 
 ```bash
-    mvn install
+    mvn package
 
     mvn spring-boot:run
 
     #(or java -jar target/reactspring-0.0.1-SNAPSHOT.jar)
 ```
 
-Go to [http://localhost:8080/api/groups](http://localhost:8080/api/groups) to see the result.
+Go to [http://localhost:8443/api/groups](http://localhost:8443/api/groups) to see the result.
 
 ### To POST, PUT and DELETE
 
