@@ -1,15 +1,15 @@
 //https://github.com/oktadeveloper/okta-spring-boot-react-crud-example
 import React, { Component } from 'react';
 import './App.css';
-import GroupEdit from './GroupEdit';
-import Home from './Home';
+import GroupEdit from './components/GroupEdit';
+import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import GroupList from './GroupList';
-import UserList from './UserList';
-import EventList from './EventList';
-import UserEdit from './UserEdit';
-import EventEdit from './EventEdit';
-import EventUser from './EventUser';
+import GroupList from './components/GroupList';
+import UserList from './components/UserList';
+import EventList from './components/EventList';
+import UserEdit from './components/UserEdit';
+import EventEdit from './components/EventEdit';
+import EventUser from './components/EventUser';
 
 class App extends Component {
   render() {

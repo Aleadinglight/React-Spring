@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Button, ButtonGroup, Container, Table } from 'reactstrap';
+import {Container, Table } from 'reactstrap';
 import AppNavbar from './AppNavbar';
-import { Link } from 'react-router-dom';
 
 class EventUser extends Component {
 
@@ -37,7 +36,7 @@ class EventUser extends Component {
     const userList = usersHere.map(user => {
       var found = false;
       for(var i=0;i<this.state.event.attendees.length;i++){
-        if(this.state.event.attendees[i].name==user.name){
+        if(this.state.event.attendees[i].name===user.name){
           found = true;
         }
       }
